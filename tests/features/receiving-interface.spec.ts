@@ -53,7 +53,7 @@ describe('makeClassLikeStub receiving Interface', () => {
 
 		let errorCatched: any = null;
 
-		// console.log({ sut, boo: sut.boo });
+		jest.spyOn(console, 'error').mockImplementationOnce(() => {});
 
 		try {
 			expect(sut.boo).toBeUndefined();
