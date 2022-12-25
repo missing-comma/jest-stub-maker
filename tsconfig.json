@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"declaration": true,
+		"removeComments": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"target": "ES6",
+		"sourceMap": true,
+		"outDir": "./dist",
+		"baseUrl": "./",
+		"moduleResolution": "node",
+		"noUnusedLocals": false,
+		"resolveJsonModule": true,
+		"noUnusedParameters": false,
+		"preserveWatchOutput": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"lib": ["ES2015"],
+		"paths": {
+			"~stub-maker/*": ["./src/*"]
+		}
+	},
+	"exclude": ["node_modules"]
+}
