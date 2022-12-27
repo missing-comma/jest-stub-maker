@@ -55,7 +55,7 @@ And this package provides the tools for mocking such interface's implementation 
 
 Here's how your test to check if "isAuthenticated" is being properly used would look like:
 
-```.tsc
+```.ts
 import { makeClassLikeStub } from "@missing-comma/jest-class-stub-maker";
 import { IsAuthenticated, RequestController } from "...";
 
